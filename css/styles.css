@@ -1,0 +1,387 @@
+/*general*/
+html{
+	font-family: Helvetica, sans-serif;
+}
+
+
+/*header*/
+.banner{
+	width:100%;
+	height: 600px;
+	background-image: url('../img/capa3.jpg');
+	background-position: center;
+	position: relative;
+	/*max-width: 100%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);*/
+
+}
+
+
+.box-container{
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	position: absolute;
+	right: 100px;
+	bottom: 250px;
+}
+
+.box-background{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .8;/*deixa opaco*/
+	position: relative;	
+
+
+}
+
+.box-banner-title{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	color: #FFF;
+	padding-top: 65px;
+	text-align: center;
+
+
+}
+
+
+.box-banner-title h1 {
+	font-size: 32px;
+	margin-bottom: 25px;
+
+}
+
+
+.box-banner-title p {
+	font-size: 20px;
+}
+
+.company-info-container{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 175px;
+}
+
+.company-info-background{
+	width: 100%;
+	height: 100%;
+	background-color: #DDD;
+	opacity: .9;
+
+}
+
+
+
+.company-info-titlebox{
+	position: absolute;
+	padding-left: 10%;
+	top: 40px;
+	width: 500px;
+
+}
+.company-info-titlebox h2, .company-info-titlebox p {
+	color: #222;
+	
+}
+
+.company-info-titlebox h2{
+	margin-bottom: 30px;
+	font-size: 24px;
+	
+
+}
+
+/*Serviços*/
+.services-container{
+	max-width: 1200px;
+	padding: 30px 10%;
+	padding-bottom: 0;
+	
+
+}
+
+.service-box{
+	width: 100%;
+	position: relative;
+	clear: both;
+	height: 150px;
+	margin-bottom: 30px;
+}
+
+.service-box:last {
+	margin-bottom: 0;
+}
+
+.service-title{
+	width: 20%;
+	height: 150px;
+	background-color: #DDD;
+	float: left;
+	text-align: center;
+	line-height: 150px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.service-title p {
+	
+	padding-top: 35px;
+	color: #FFF;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.service-description{
+	width: 80%;
+	float: left;
+	padding: 30px;
+	box-sizing: border-box;
+
+}
+
+.service-description h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+
+}
+
+.service-description p {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+#gerenciamento-title{
+	color: #2364AA;
+}
+
+#dev-title{
+	color: #3DA5D9;
+}
+
+#design-title{
+	color: #73BFB8;
+}
+
+#gerenciamento-box{
+	background-color: #2364AA;
+
+}
+
+#dev-box{
+	background-color: #3DA5D9;
+}
+
+#design-box{
+	background-color: #73BFB8;
+}
+
+/*Sobre a empresa*/
+
+.footer-container{
+	background-image: url('../img/capa7red.jpg');
+	background-position: center;
+	
+
+}
+
+.about-container{
+	max-width: 1200px;
+	padding: 30px 10%;
+	position: relative;
+	clear: both;
+}
+
+.about-card{
+	float: left;
+	
+	width: 30%;
+	padding: 40px;
+	background-color: #FFF;
+	color:gray;
+	text-align: center;
+	box-sizing: border-box;
+
+}
+.middle-card{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.about-card i{
+	font-size: 50px;
+	color: #AAA;
+
+}
+
+.about-card p {
+	margin-top: 50px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #888;
+	text-align: left;
+}
+
+/*footer*/
+
+footer{
+	clear: both;
+	max-width: 1200px;
+	height: 500px;
+	padding: 30px 10%;
+	position: relative;
+}
+
+.form-container{
+	width: 65%;
+	height: 375px;
+	position: relative;
+	display: block;
+	color: #222;
+
+}
+.form-background{
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	opacity: .5;
+}
+
+.form-container form {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	height: 300px;
+	color: #222;
+
+}
+
+.form-container input, .form-container textarea {
+	width: 400px;
+	display: block;
+	border: none;
+	padding: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #AAA;
+	border-radius: 0;
+	background-color: transparent;
+
+}
+
+.form-container textarea {
+	height: 120px;
+	color: #000;
+	font-size: 14px;
+}
+
+.form-container input::placeholder, .form-container textarea::placeholder {
+	font-size: 14px;
+	color:rgb(32, 29, 29);
+	
+}
+
+.form-container .submit {
+	background-color: #222;
+	color: #222;
+	border: 1px solid transparent;
+	width: 100px;
+	position: relative;
+	float: right;
+	cursor: pointer;
+	transition: .5s;
+
+}
+.form-container .submit:hover {
+	background-color: rgb(32, 29, 29);
+	color: #FFF;
+	border: 1px solid #222;
+	
+}
+
+.copyright{
+	color: #222;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	left: 0;/*serve para centralizar o elemento*/
+	right: 0;/*serve para centralizar o elemento*/
+	bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*Responsivo*/
+@media(max-width:450px) {
+
+    .container{
+        height: 100%;
+        flex-wrap: wrap;
+		flex: 1 1 100%;
+    }
+
+    .banner{
+        flex: 1 1 100%;
+
+    }
+
+    #form-container {
+        order: -1;
+        padding: 20px;
+    }
+    
+    #form-container h2 {
+        margin-bottom: 25px;
+    }
+
+    #form-container h2 {
+        margin-bottom: 25px;
+
+    }
+
+    #contact-form{
+        width: 100%;
+    }
+
+    #contact-form input, #contact-form label, #contact-form textarea {
+        border-color: #AAA;
+    }
+
+
+    #address-container {
+        background-position: 0;
+        height: 500px;
+    }
+
+    .fade{
+        opacity: .7;
+    }
+
+
+    #address-content {
+        top: 25%;
+        left: 25%;
+
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
